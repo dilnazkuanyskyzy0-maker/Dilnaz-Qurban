@@ -1,0 +1,14 @@
+numbers = [3, 7, 10, 12, 5, 8]
+
+
+i = 0
+while i < len(numbers) and numbers[i] <= 10:
+    print(f"while: {numbers[i]}")
+    i += 1
+
+print("---")
+
+
+for num in numbers:
+    if num % 2 == 0:
+        print(f"for: {num}")
